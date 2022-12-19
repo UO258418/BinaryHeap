@@ -56,7 +56,7 @@ public class BinaryHeapTest {
 		 assertEquals(b.toString(), "[d, g, f, z]");*/
 	}
 	
-	/*@Test
+	@Test
 	public void test_getMin () {
 				
 		 String[] input = {"Z", "X", "R", "P", "O", "G", "E", "D", "B", "A"};
@@ -114,6 +114,6 @@ public class BinaryHeapTest {
         System.out.println (heap.toString());
         
         assertEquals(heap.toString(), "[2, 3, 5, 4, 7, 8, 6, 9]");
-    }*/
+    }
 
 }

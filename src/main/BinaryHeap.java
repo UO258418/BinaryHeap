@@ -72,4 +72,11 @@ public class BinaryHeap<T extends Comparable<T>> {
         return -1;
     }
 
+    public T getMin() {
+        Collections.swap(heap, 0, heap.size() - 1);
+        T element = heap.remove(heap.size() - 1);
+        filterDown(0);
+        return element;
+    }
+
 }
